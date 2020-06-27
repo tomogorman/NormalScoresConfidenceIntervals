@@ -1,0 +1,98 @@
+
+This file gives the empirical coverage probability and the average width
+for the traditional confidence interval (OLS) and the generalized normal
+scores (GNS) confidence interval that is described in the manuscript:
+
+O'Gorman, T. W. (2020) A method to reduce the width of confidence intervals 
+while maintaining their coverage probability. (Submitted for publication.)
+
+In each of these simulations 100000 data sets were generated and the
+traditional 95% confidence interval and the GNS 95% confidence interval
+were used for the last parameter in the model.
+
+Notation:
+
+"n" is the number of observations.
+"Distribution" is the distribution of the errors that were generated.
+"OLS" the traditional confidence interval based on the t distribution. 
+"CP" is the empircal coverage probability.
+"NS" is the Generalized Normal Scores (GNS) confidence interval. 
+"PctDec" is the percent decrease in width by using the GNS confidence interval.
+  
+In this simulation for the two-sample confidence interval the 
+independent variables are half zeroes, half ones.
+
+ ******************
+  n =           25
+ ******************
+
+  Distribution     OLS width  CP    NS  width  CP   PctDec width
+
+Normal                 1.639  94.9      1.663  94.9    -1.5
+Bimodal +-1.5          1.646  94.8      1.650  94.9    -0.2
+t with d.f. = 4        1.593  95.3      1.489  94.9     6.5
+RST a3=1 a4=4.2        1.629  95.1      1.540  95.0     5.5
+RST a3=1 a4=8.4        1.612  95.4      1.514  95.0     6.1
+RST a3=2 a4=11.4       1.592  95.5      1.365  94.8    14.3
+RST a3=2 a4=15.6       1.590  95.5      1.402  95.0    11.8
+Bimodal .75N + .25N    1.640  95.1      1.521  95.0     7.3
+
+ ******************
+  n =           50
+ ******************
+
+  Distribution     OLS width  CP    NS  width  CP   PctDec width
+
+Normal                 1.132  95.0      1.143  95.0    -1.0
+Bimodal +-1.5          1.134  94.9      1.092  94.9     3.7
+t with d.f. = 4        1.111  95.2      1.010  94.9     9.0
+RST a3=1 a4=4.2        1.128  95.1      1.019  95.1     9.6
+RST a3=1 a4=8.4        1.119  95.2      1.024  94.8     8.5
+RST a3=2 a4=11.4       1.113  95.4      0.891  95.1    19.9
+RST a3=2 a4=15.6       1.110  95.2      0.936  95.0    15.7
+Bimodal .75N + .25N    1.133  95.1      0.952  95.1    15.9
+
+ ******************
+  n =          100
+ ******************
+
+  Distribution     OLS width  CP    NS  width  CP   PctDec width
+
+Normal                 0.792  95.2      0.797  95.2    -0.6
+Bimodal +-1.5          0.793  95.0      0.741  94.9     6.6
+t with d.f. = 4        0.783  95.2      0.704  95.1    10.1
+RST a3=1 a4=4.2        0.791  95.1      0.695  95.1    12.1
+RST a3=1 a4=8.4        0.787  95.1      0.712  95.0     9.5
+RST a3=2 a4=11.4       0.785  95.2      0.606  95.0    22.8
+RST a3=2 a4=15.6       0.783  95.1      0.646  95.0    17.5
+Bimodal .75N + .25N    0.792  95.1      0.632  95.0    20.2
+
+******************
+  n =          200
+ ******************
+
+  Distribution     OLS width  CP    NS  width  CP   PctDec width
+
+Normal                 0.557  95.0      0.559  95.0    -0.3
+Bimodal +-1.5          0.558  95.0      0.512  95.0     8.2
+t with d.f. = 4        0.553  95.2      0.495  95.1    10.4
+RST a3=1 a4=4.2        0.557  95.1      0.482  95.0    13.5
+RST a3=1 a4=8.4        0.555  95.0      0.500  95.0    10.0
+RST a3=2 a4=11.4       0.555  95.1      0.420  95.0    24.2
+RST a3=2 a4=15.6       0.553  95.2      0.452  95.1    18.4
+Bimodal .75N + .25N    0.557  95.0      0.434  95.0    22.1
+
+ ******************
+  n =          400
+ ******************
+
+  Distribution     OLS width  CP    NS  width  CP   PctDec width
+
+Normal                 0.393  95.0      0.394  95.0    -0.2
+Bimodal +-1.5          0.393  95.0      0.357  95.0     9.2
+t with d.f. = 4        0.391  95.0      0.349  94.9    10.6
+RST a3=1 a4=4.2        0.393  94.9      0.337  94.9    14.2
+RST a3=1 a4=8.4        0.392  94.9      0.353  94.9    10.2
+RST a3=2 a4=11.4       0.392  95.1      0.294  94.9    24.9
+RST a3=2 a4=15.6       0.392  95.1      0.318  95.0    18.8
+Bimodal .75N + .25N    0.393  94.9      0.302  94.9    23.1
