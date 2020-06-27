@@ -20,30 +20,19 @@ empirical coverage probability and the average width were computed.
 
 The files are:
 
-|        File name    |               Model  |
-______________________|:____________________________________:|
-
-|nsci.ic2.bal.txt      |For two equal samples from two populations
-
-|nsci.ic2.nor.txt      |Simple Linear Regression with one Normal covariate
-
-|nsci.ic2.ln.txt       |Simple Linear Regression with one Lognormal covariate
-
-nsci.ic3.nor.r0.txt   Regression with 2 normal covariates correlated r = .0
-
-nsci.ic3.ln.r0.txt    Regression with 2 lognormal covariates correlated r = .0
-
-nsci.ic3.nor.r4.txt   Regression with 2 normal covariates correlated r = .4
- 
-nsci.ic3.ln.r4.txt    Regression with 2 lognormal covariates correlated r = .4
- 
-nsci.ic3.nor.r8.txt   Regression with 2 normal covariates correlated r = .8
-
-nsci.ic3.ln.r8.txt    Regression with 2 lognormal covariates correlated r = .8
-
-nsci.ic5.nor.r4.txt   Regression with 4 normal covariates correlated r = .4
-
-nsci.ic5.ln.r4.txt    Regression with 4 lognormal covariates correlated r = .4 
+|        File name     |              Model|
+|----------------------|:------------------:|
+|nsci.ic2.bal.txt      |For two equal samples from two populations|
+|nsci.ic2.nor.txt      |Simple Linear Regression with one Normal covariate|
+|nsci.ic2.ln.txt       |Simple Linear Regression with one Lognormal covariate|
+|nsci.ic3.nor.r0.txt   |Regression with 2 normal covariates correlated r = .0|
+|nsci.ic3.ln.r0.txt    |Regression with 2 lognormal covariates correlated r = .0|
+|nsci.ic3.nor.r4.txt   |Regression with 2 normal covariates correlated r = .4|
+|nsci.ic3.ln.r4.txt    |Regression with 2 lognormal covariates correlated r = .4|
+|nsci.ic3.nor.r8.txt   |Regression with 2 normal covariates correlated r = .8|
+|nsci.ic3.ln.r8.txt    |Regression with 2 lognormal covariates correlated r = .8|
+|nsci.ic5.nor.r4.txt   |Regression with 4 normal covariates correlated r = .4|
+|nsci.ic5.ln.r4.txt    |Regression with 4 lognormal covariates correlated r = .4| 
 
 
 
