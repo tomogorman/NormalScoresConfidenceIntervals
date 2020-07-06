@@ -8,6 +8,9 @@ The confidence interval method is described in:
 O'Gorman, T. W. (2020) A Method to Reduce the Width of Confidence Intervals while Maintaining 
 Their Coverage Probability. (Submitted for publication.)
 
+This normal scores confidence interval can be computed by an R function 
+with the file name of "nsci.r" that is in this repository.
+
 The GNS test is described in:
 
 O'Gorman, T. W. (2020) A Generalized Normal Scores Test of Significance
