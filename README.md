@@ -5,7 +5,7 @@ that are based on the inversion of the generalized normal scores (GNS) test.
 
 The confidence interval method is described in
 
-O'Gorman, T. W. (2020) A Method to Reduce the Width of Confidence Intervals while Maintaining 
+O'Gorman, T. W. (2022) A Method to Reduce the Width of Confidence Intervals while Maintaining 
 Their Coverage Probability. (Submitted for publication.)
 
 The GNS test is described in
