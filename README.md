@@ -5,8 +5,8 @@ that are based on the inversion of the generalized normal scores (GNS) test.
 
 The confidence interval method is described in
 
-O'Gorman, T. W. (2022) A Method to Reduce the Width of Confidence Intervals while Maintaining 
-Their Coverage Probability. (Submitted for publication.)
+O'Gorman, T. W. (2020) A Method to Reduce the Width of Confidence Intervals  
+by Using a Normal Scores Transformation. (Submitted for publication.)
 
 The GNS test is described in
 
@@ -33,7 +33,15 @@ The files are:
 |nsci.ic3.nor.r8.txt  | Regression with 2 normal covariates correlated r = .8   | 
 |nsci.ic3.ln.r8.txt   | Regression with 2 lognormal covariates correlated r = .8| 
 |nsci.ic5.nor.r4.txt  | Regression with 4 normal covariates correlated r = .4   | 
-|nsci.ic5.ln.r4.txt   | Regression with 4 lognormal covariates correlated r = .4| 
+|nsci.ic5.ln.r4.txt   | Regression with 4 lognormal covariates correlated r = .4|
+|---------------------|:-------------------------------------------------------:|
+|nsci.ic2.x21.txt     | Simple Regression, 1 fixed covariate, equal spacing     |
+|nsci.ic2.x22.txt     | Simple Regression, 1 fixed covariate, unequal spacing   |
+|nsci.ic3.x23.txt     | Mult. Reg., 2 uncorrelated covariates, equal spacing    |
+|nsci.ic3.x24.txt     | Mult. Reg., 2 correlated covariates, equal spacing      |
+|nsci.ic3.x25.txt     | Mult. Reg., 2 uncorrelated covariates, unequal spacing  |
+|nsci.ic3.x26.txt     | Mult. Reg., 2 correlated covariates, unequal spacing    |
+
 
 
 
