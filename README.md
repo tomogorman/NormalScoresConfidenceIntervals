@@ -35,8 +35,8 @@ The files are:
 |nsci.ic5.nor.r4.txt  | Regression with 4 normal covariates correlated r = .4   | 
 |nsci.ic5.ln.r4.txt   | Regression with 4 lognormal covariates correlated r = .4|
 
-The second group of file give the coverage probabilities and the average
-width of the confidence intervals when the covariates are fixed.
+The second group of files give the coverage probabilities and the average
+widths of the confidence intervals when the covariates are fixed.
                                                                               
 |    File name        |               Model                                     |
 |---------------------|:-------------------------------------------------------:|
