@@ -34,6 +34,11 @@ The files are:
 |nsci.ic3.ln.r8.txt   | Regression with 2 lognormal covariates correlated r = .8| 
 |nsci.ic5.nor.r4.txt  | Regression with 4 normal covariates correlated r = .4   | 
 |nsci.ic5.ln.r4.txt   | Regression with 4 lognormal covariates correlated r = .4|
+
+The second group of file give the coverage probabilities and the average
+width of the confidence intervals when the covariates are fixed.
+                                                                              
+|    File name        |               Model                                     |
 |---------------------|:-------------------------------------------------------:|
 |nsci.ic2.x21.txt     | Simple Regression, 1 fixed covariate, equal spacing     |
 |nsci.ic2.x22.txt     | Simple Regression, 1 fixed covariate, unequal spacing   |
